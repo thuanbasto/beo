@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="detail.css">
+    <script src="bootstrap/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="2.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          </a>
+        <form class="form-inline">
+            <button class="font-weight-bold btn btn-outline-success my-2 my-sm-0 mr-3" type="submit"><i class="fas fa-store"></i> SHOP</button>
+            <button class="font-weight-bold btn btn-outline-success my-2 my-sm-0 mr-3" type="submit"><i class="fas fa-utensils"></i> RECIPES</button>
+            <button class="font-weight-bold btn btn-outline-success my-2 my-sm-0 mr-3" type="submit"><i class="far fa-newspaper"></i> NEWS</button>
+            <button class="font-weight-bold btn btn-outline-success my-2 my-sm-0 mr-3" type="submit"><i class="far fa-address-card"></i> ABOUT</button>
+            <i class="fas fa-home fa-lg mr-3"></i>
+            <i class="fas fa-shopping-cart fa-lg"></i>
+        </form>
+    </nav>
+    <div class="container d-flex justify-content-between mt-3">
+        <div class="picture">
+            <img src="2.png" alt="picture">
+        </div>
+        <div class="detail">
+            <h1>FOOD'S NAME</h1>
+            <div class="rating-stars d-flex">
+                <ul id="stars" class="text-left">
+                    <li class="star" data-value="1">
+                        <i class="fa fa-star fa-fw"></i>
+                    </li>
+                    <li class="star" title="Fair" data-value="2">
+                        <i class="fa fa-star fa-fw"></i>
+                    </li>
+                    <li class="star" title="Good" data-value="3">
+                        <i class="fa fa-star fa-fw"></i>
+                    </li>
+                    <li class="star" title="Excellent" data-value="4">
+                        <i class="fa fa-star fa-fw"></i>
+                    </li>
+                    <li class="star" title="WOW!!!" data-value="5">
+                        <i class="fa fa-star fa-fw"></i>
+                    </li>
+                </ul>
+                <span class="d-flex align-items-center pb-3">(Rating)</span>
+            </div>
+            <div>
+                <span class="price bg-dark text-light rounded-pill pr-3 pl-3 pt-1 pb-1">$500.99</span>
+            </div>
+            <div class="mt-3 d-flex">
+                <span class="quantity font-weight-bold d-flex align-items-center mr-2">Quantity: </span>
+                <input class="ml-2 w-25 mr-3" min="1" type="number" name="quantity" value="1" id="quantity">
+                <button class="font-weight-bold btn btn-outline-dark my-2 my-sm-0 mr-3" type="submit"><i class="fas fa-shopping-cart fa-lg"></i> ADD TO CART</button>
+            </div>
+            <div class="contact mt-3">
+                <span class="mr-2"><i class="fab fa-facebook fa-lg"></i> CONTACT</span>
+                <span class="mr-2"><i class="fab fa-instagram-square fa-lg"></i> CONTACT</span>
+                <span><i class="fas fa-envelope-square fa-lg"></i> CONTACT</span>
+            </div>
+            <div class="describe mt-5">
+                <h4 class="border-bottom border-dark">DESCRIBE</h4>
+                <span>
+                    aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa 
+                    aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa 
+                    aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa 
+                    aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa 
+                    aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa 
+                    aaaaaaaaaaaaaaa 
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="detail.js"></script>
+</body>
+</html>
